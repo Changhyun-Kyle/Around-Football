@@ -168,7 +168,7 @@
             <objects>
                 <viewController id="KMG-Ug-Zip" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qgj-GJ-Wuh">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="nhc-mk-Yqp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -307,7 +307,6 @@
                     <connections>
                         <segue destination="c5z-Ke-jPu" kind="relationship" relationship="viewControllers" id="xDb-wG-hue"/>
                         <segue destination="Xmf-yc-z2h" kind="relationship" relationship="viewControllers" id="fPI-wF-gKO"/>
-                        <segue destination="04T-tw-PNj" kind="relationship" relationship="viewControllers" id="yZM-q8-Wpu"/>
                         <segue destination="A5b-Gi-Sdk" kind="relationship" relationship="viewControllers" id="sMP-m7-zOg"/>
                     </connections>
                 </tabBarController>
@@ -334,12 +333,8 @@
                 <navigationController navigationBarHidden="YES" id="04T-tw-PNj" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="" image="star" catalog="system" id="f0q-hA-yO6"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="CEM-ss-syc">
-                        <rect key="frame" x="0.0" y="-54" width="0.0" height="0.0"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
-                    <connections>
-                        <segue destination="KMG-Ug-Zip" kind="relationship" relationship="rootViewController" id="SjO-DO-EQB"/>
-                    </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fXj-AD-1An" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

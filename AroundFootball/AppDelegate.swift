@@ -10,6 +10,7 @@ import NMapsMap
 import KakaoSDKCommon
 import KakaoSDKAuth
 import KakaoSDKUser
+import Firebase
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -22,6 +23,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //카카오 로그인 SDK 초기화
         KakaoSDK.initSDK(appKey: "344b8bf6a1f037129d7a37d3b57ab73d")
         
+        //Firebase RemoteConfig 초기화
+        FirebaseApp.configure()
         return true
     }
     // MARK: UISceneSession Lifecycle

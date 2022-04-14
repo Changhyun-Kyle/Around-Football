@@ -1,5 +1,43 @@
 PODS:
-  - Alamofire (5.5.0)
+  - Alamofire (5.6.0)
+  - Firebase/CoreOnly (8.15.0):
+    - FirebaseCore (= 8.15.0)
+  - Firebase/RemoteConfig (8.15.0):
+    - Firebase/CoreOnly
+    - FirebaseRemoteConfig (~> 8.15.0)
+  - FirebaseABTesting (8.15.0):
+    - FirebaseCore (~> 8.0)
+  - FirebaseCore (8.15.0):
+    - FirebaseCoreDiagnostics (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (8.15.0):
+    - GoogleDataTransport (~> 9.1)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (~> 2.30908.0)
+  - FirebaseInstallations (8.15.0):
+    - FirebaseCore (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - FirebaseRemoteConfig (8.15.0):
+    - FirebaseABTesting (~> 8.0)
+    - FirebaseCore (~> 8.0)
+    - FirebaseInstallations (~> 8.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+  - GoogleDataTransport (9.1.2):
+    - GoogleUtilities/Environment (~> 7.2)
+    - nanopb (~> 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/UserDefaults (7.7.0):
+    - GoogleUtilities/Logger
   - KakaoSDK (2.9.1):
     - KakaoSDKAuth (= 2.9.1)
     - KakaoSDKCommon (= 2.9.1)
@@ -32,17 +70,34 @@ PODS:
     - KakaoSDKCommon/Common (= 2.9.1)
   - KakaoSDKUser (2.9.1):
     - KakaoSDKAuth (= 2.9.1)
+  - nanopb (2.30908.0):
+    - nanopb/decode (= 2.30908.0)
+    - nanopb/encode (= 2.30908.0)
+  - nanopb/decode (2.30908.0)
+  - nanopb/encode (2.30908.0)
   - NMapsMap (3.14.2)
+  - PromisesObjC (2.1.0)
+  - SnapKit (5.6.0)
 
 DEPENDENCIES:
+  - Firebase/RemoteConfig
   - KakaoSDK
   - KakaoSDKAuth
   - KakaoSDKUser
   - NMapsMap
+  - SnapKit (~> 5.6.0)
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseInstallations
+    - FirebaseRemoteConfig
+    - GoogleDataTransport
+    - GoogleUtilities
     - KakaoSDK
     - KakaoSDKAuth
     - KakaoSDKCommon
@@ -52,10 +107,21 @@ SPEC REPOS:
     - KakaoSDKTalk
     - KakaoSDKTemplate
     - KakaoSDKUser
+    - nanopb
     - NMapsMap
+    - PromisesObjC
+    - SnapKit
 
 SPEC CHECKSUMS:
-  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  Alamofire: 0c07058209f211e3d32824f8e0766d7c44ac83b3
+  Firebase: 5f8193dff4b5b7c5d5ef72ae54bb76c08e2b841d
+  FirebaseABTesting: 10cbce8db9985ae2e3847ea44e9947dd18f94e10
+  FirebaseCore: 5743c5785c074a794d35f2fff7ecc254a91e08b1
+  FirebaseCoreDiagnostics: 92e07a649aeb66352b319d43bdd2ee3942af84cb
+  FirebaseInstallations: 40bd9054049b2eae9a2c38ef1c3dd213df3605cd
+  FirebaseRemoteConfig: 2d6e2cfdb49af79535c8af8a80a4a5009038ec2b
+  GoogleDataTransport: 629c20a4d363167143f30ea78320d5a7eb8bd940
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
   KakaoSDK: 863b75c045a01065faf1dd67393b62dfe2b4ce3a
   KakaoSDKAuth: 8ec514e64f57f405735e92483fdae1cc2830d351
   KakaoSDKCommon: c4b08131fdba6770a280ffe83916048174f329bf
@@ -65,8 +131,11 @@ SPEC CHECKSUMS:
   KakaoSDKTalk: b4ba0628c770e1781307296b1ccaabec34327799
   KakaoSDKTemplate: 816a1c24855b30f1ad337e754963c8b17ad5053d
   KakaoSDKUser: 3b82c8f4b7bdd8584b296cf91d1be4b4a84102fb
+  nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
   NMapsMap: efb3a5cf593ff0d89f2a55bb3d4f8c30fe10bd7f
+  PromisesObjC: 99b6f43f9e1044bd87a95a60beff28c2c44ddb72
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
-PODFILE CHECKSUM: 518062495c135860ce2b12c1186f0cf3e24c9c54
+PODFILE CHECKSUM: b5dd39683152b4d8cd5329c3174a2cc20475ee76
 
 COCOAPODS: 1.11.3

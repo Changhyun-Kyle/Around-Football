@@ -12,4 +12,8 @@ target 'AroundFootball' do
   pod 'KakaoSDKAuth'
   pod 'KakaoSDKUser'
 
+  pod 'SnapKit', '~> 5.6.0'
+
+  pod 'Firebase/RemoteConfig'
+  
 end
