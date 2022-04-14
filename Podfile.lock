@@ -1,0 +1,72 @@
+PODS:
+  - Alamofire (5.5.0)
+  - KakaoSDK (2.9.1):
+    - KakaoSDKAuth (= 2.9.1)
+    - KakaoSDKCommon (= 2.9.1)
+    - KakaoSDKLink (= 2.9.1)
+    - KakaoSDKNavi (= 2.9.1)
+    - KakaoSDKStory (= 2.9.1)
+    - KakaoSDKTalk (= 2.9.1)
+    - KakaoSDKTemplate (= 2.9.1)
+    - KakaoSDKUser (= 2.9.1)
+  - KakaoSDKAuth (2.9.1):
+    - KakaoSDKCommon (= 2.9.1)
+  - KakaoSDKCommon (2.9.1):
+    - KakaoSDKCommon/Common (= 2.9.1)
+    - KakaoSDKCommon/Network (= 2.9.1)
+  - KakaoSDKCommon/Common (2.9.1)
+  - KakaoSDKCommon/Network (2.9.1):
+    - Alamofire (~> 5.1)
+    - KakaoSDKCommon/Common (= 2.9.1)
+  - KakaoSDKLink (2.9.1):
+    - KakaoSDKCommon (= 2.9.1)
+    - KakaoSDKTemplate (= 2.9.1)
+  - KakaoSDKNavi (2.9.1):
+    - KakaoSDKCommon/Common (= 2.9.1)
+  - KakaoSDKStory (2.9.1):
+    - KakaoSDKUser (= 2.9.1)
+  - KakaoSDKTalk (2.9.1):
+    - KakaoSDKTemplate (= 2.9.1)
+    - KakaoSDKUser (= 2.9.1)
+  - KakaoSDKTemplate (2.9.1):
+    - KakaoSDKCommon/Common (= 2.9.1)
+  - KakaoSDKUser (2.9.1):
+    - KakaoSDKAuth (= 2.9.1)
+  - NMapsMap (3.14.2)
+
+DEPENDENCIES:
+  - KakaoSDK
+  - KakaoSDKAuth
+  - KakaoSDKUser
+  - NMapsMap
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - KakaoSDK
+    - KakaoSDKAuth
+    - KakaoSDKCommon
+    - KakaoSDKLink
+    - KakaoSDKNavi
+    - KakaoSDKStory
+    - KakaoSDKTalk
+    - KakaoSDKTemplate
+    - KakaoSDKUser
+    - NMapsMap
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  KakaoSDK: 863b75c045a01065faf1dd67393b62dfe2b4ce3a
+  KakaoSDKAuth: 8ec514e64f57f405735e92483fdae1cc2830d351
+  KakaoSDKCommon: c4b08131fdba6770a280ffe83916048174f329bf
+  KakaoSDKLink: d138ac61dc3103d15f5b3ceafae9a29073b04bd4
+  KakaoSDKNavi: 2bf83faa1a841467d7f398c714652cb5b0e22611
+  KakaoSDKStory: 423a381e0e9686c2b4e3058f0fc62befa4bc73bd
+  KakaoSDKTalk: b4ba0628c770e1781307296b1ccaabec34327799
+  KakaoSDKTemplate: 816a1c24855b30f1ad337e754963c8b17ad5053d
+  KakaoSDKUser: 3b82c8f4b7bdd8584b296cf91d1be4b4a84102fb
+  NMapsMap: efb3a5cf593ff0d89f2a55bb3d4f8c30fe10bd7f
+
+PODFILE CHECKSUM: 518062495c135860ce2b12c1186f0cf3e24c9c54
+
+COCOAPODS: 1.11.3
