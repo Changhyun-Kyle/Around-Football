@@ -20,7 +20,7 @@
 
 | 로고                 | 앱 아이콘                |
 |---------------------|-----------------------|
-| <img width="702" alt="로고" src="https://user-images.githubusercontent.com/101093592/195090820-f2eff088-2a62-4d7c-8304-4af72536fe51.png"> | <img width="130" alt="앱 아이콘" src="https://user-images.githubusercontent.com/101093592/195091797-f41cc1e9-3140-4239-8015-470d68b1c195.png"> |
+| <img width="150" alt="로고" src="https://user-images.githubusercontent.com/101093592/195090820-f2eff088-2a62-4d7c-8304-4af72536fe51.png"> | <img width="150" alt="앱 아이콘" src="https://user-images.githubusercontent.com/101093592/195091797-f41cc1e9-3140-4239-8015-470d68b1c195.png"> |
 
 ### 화면 구성
 
