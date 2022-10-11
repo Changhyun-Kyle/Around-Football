@@ -28,14 +28,14 @@ yarn start
 화면 사이즈 및 사이드바 여부에 따라 달력의 크기도 변화
 
 | 로고                 | 앱 아이콘                |
-|----![](file:///Users/kyle/Desktop/TEAMs/%E1%84%85%E1%85%A9%E1%84%80%E1%85%A9.webp)-----------------|---------------------![](file:///Users/kyle/Desktop/TEAMs/%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB.webp)--|
-| ![] | ![] |
+|---------------------|-----------------------|
+| <img width="702" alt="로고" src="https://user-images.githubusercontent.com/101093592/195090820-f2eff088-2a62-4d7c-8304-4af72536fe51.png"> | ![앱 아이콘](https://user-images.githubusercontent.com/101093592/195090823-9d453cba-893f-4084-b8ee-f2adf2adc571.png) |
 
-### 달력 이동
+### 화면 구성
 
 | 로그인 화면                | 시작 화면                | 메인 화면 |
 |----------------------|----------------------|------------------------|
-| ![](file:///Users/kyle/Desktop/TEAMs/%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB%20%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB.webp) | ![](file:///Users/kyle/Desktop/TEAMs/%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB.webp)| ![](file:///Users/kyle/Desktop/TEAMs/%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB.webp)   |
+| ![로그인화면](https://user-images.githubusercontent.com/101093592/195090834-acc5247f-1da2-43fc-827d-1ff1045162c9.png) | ![메인화면](https://user-images.githubusercontent.com/101093592/195090830-166b7561-74e3-420c-814f-8df2d28b722f.png)| ![시작화면](https://user-images.githubusercontent.com/101093592/195090831-24c4b9e8-d77e-4e3c-b0ca-fa6d9cee516d.png)   |
 
 ### 일정 만들기
 
