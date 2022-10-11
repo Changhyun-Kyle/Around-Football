@@ -20,13 +20,13 @@
 
 | 로고                 | 앱 아이콘                |
 |---------------------|-----------------------|
-| <img width="150" alt="로고" src="https://user-images.githubusercontent.com/101093592/195090820-f2eff088-2a62-4d7c-8304-4af72536fe51.png"> | <img width="150" alt="앱 아이콘" src="https://user-images.githubusercontent.com/101093592/195091797-f41cc1e9-3140-4239-8015-470d68b1c195.png"> |
+| <img width="300" alt="로고" src="https://user-images.githubusercontent.com/101093592/195090820-f2eff088-2a62-4d7c-8304-4af72536fe51.png"> | <img width="300" alt="앱 아이콘" src="https://user-images.githubusercontent.com/101093592/195091797-f41cc1e9-3140-4239-8015-470d68b1c195.png"> |
 
 ### 화면 구성
 
 | 로그인 화면                | 시작 화면                | 메인 화면 |
 |----------------------|----------------------|------------------------|
-| ![로그인화면](https://user-images.githubusercontent.com/101093592/195090834-acc5247f-1da2-43fc-827d-1ff1045162c9.png) | ![메인화면](https://user-images.githubusercontent.com/101093592/195090830-166b7561-74e3-420c-814f-8df2d28b722f.png)| ![시작화면](https://user-images.githubusercontent.com/101093592/195090831-24c4b9e8-d77e-4e3c-b0ca-fa6d9cee516d.png)   |
+| ![로그인화면](https://user-images.githubusercontent.com/101093592/195090834-acc5247f-1da2-43fc-827d-1ff1045162c9.png) | ![시작화면](https://user-images.githubusercontent.com/101093592/195090831-24c4b9e8-d77e-4e3c-b0ca-fa6d9cee516d.png)| ![메인화면](https://user-images.githubusercontent.com/101093592/195090830-166b7561-74e3-420c-814f-8df2d28b722f.png)   |
 
 ### 일정 만들기
 
