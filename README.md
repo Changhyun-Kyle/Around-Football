@@ -1,12 +1,5 @@
 # Around-Football
-> 구글 캘린더 주별 화면을 클론하여 사용할 수 있도록 함
-
-## 실행
-
-```shell
-yarn install
-yarn start
-```
+> “Around Football”은 내 주변에서 인원수 걱정없이 편하게 축구/풋살을 즐길 수 있게 해주는 앱서비스 입니다. 지도 API를 기반으로한 UI/UX 디자인을 구상하여 사용자들 이 보다 쉽게 주변 운동장을 찾을 수 있으며 운동장 별 예약 및 인원 모집 현황을 직관적으로 보여줌으로써 이전과는 다른 편리한 축구/풋살 경험을 제공하고자 합니다.
 
 ## 사용
 
@@ -25,11 +18,9 @@ yarn start
 
 ## 소개
 
-화면 사이즈 및 사이드바 여부에 따라 달력의 크기도 변화
-
 | 로고                 | 앱 아이콘                |
 |---------------------|-----------------------|
-| <img width="702" alt="로고" src="https://user-images.githubusercontent.com/101093592/195090820-f2eff088-2a62-4d7c-8304-4af72536fe51.png"> | ![앱 아이콘](https://user-images.githubusercontent.com/101093592/195090823-9d453cba-893f-4084-b8ee-f2adf2adc571.png) |
+| <img width="702" alt="로고" src="https://user-images.githubusercontent.com/101093592/195090820-f2eff088-2a62-4d7c-8304-4af72536fe51.png"> | <img width="130" alt="앱 아이콘" src="https://user-images.githubusercontent.com/101093592/195091797-f41cc1e9-3140-4239-8015-470d68b1c195.png"> |
 
 ### 화면 구성
 
