@@ -1,5 +1,4 @@
 # Around-Football
-# Google Calendar Clone
 > 구글 캘린더 주별 화면을 클론하여 사용할 수 있도록 함
 
 ## 실행
@@ -9,15 +8,12 @@ yarn install
 yarn start
 ```
 
-`localhost:3000` 접속
-
 ## 사용
 
-- React
-- CRA
-- tailwind css
-- typescript
-- redux
+- Swift
+- Kakao API
+- Naver Maps API
+- Firebase
 
 ## 목차
 
@@ -27,21 +23,19 @@ yarn start
 
 ---
 
-## 기능
-
-### 반응형
+## 소개
 
 화면 사이즈 및 사이드바 여부에 따라 달력의 크기도 변화
 
-| 반응형                 | 사이드 메뉴                |
-|---------------------|-----------------------|
-| ![](./docs/반응형.webp) | ![](./docs/사이드메뉴.webp) |
+| 로고                 | 앱 아이콘                |
+|----![](file:///Users/kyle/Desktop/TEAMs/%E1%84%85%E1%85%A9%E1%84%80%E1%85%A9.webp)-----------------|---------------------![](file:///Users/kyle/Desktop/TEAMs/%E1%84%8B%E1%85%A2%E1%86%B8%20%E1%84%8B%E1%85%A1%E1%84%8B%E1%85%B5%E1%84%8F%E1%85%A9%E1%86%AB.webp)--|
+| ![] | ![] |
 
 ### 달력 이동
 
-| 월별 이동                | 주별 이동                | 오늘 날짜로 이동 및 날짜 선택 시 이동 |
+| 로그인 화면                | 시작 화면                | 메인 화면 |
 |----------------------|----------------------|------------------------|
-| ![](./docs/월별이동.webp) | ![](./docs/주별이동.webp) | ![](./docs/날짜이동.webp)   |
+| ![](file:///Users/kyle/Desktop/TEAMs/%E1%84%85%E1%85%A9%E1%84%80%E1%85%B3%E1%84%8B%E1%85%B5%E1%86%AB%20%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB.webp) | ![](file:///Users/kyle/Desktop/TEAMs/%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB.webp)| ![](file:///Users/kyle/Desktop/TEAMs/%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%92%E1%85%AA%E1%84%86%E1%85%A7%E1%86%AB.webp)   |
 
 ### 일정 만들기
 
