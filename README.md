@@ -3,7 +3,7 @@
 
 ## 사용
 
-- Swift
+- UIKit
 - Kakao API
 - Naver Maps API
 - Firebase
