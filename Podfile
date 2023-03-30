@@ -3,17 +3,23 @@
 
 target 'AroundFootball' do
   # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
+
 
   # Pods for AroundFootball
 
   pod 'NMapsMap'
-  pod 'KakaoSDK'
+
+  pod 'KakaoSDKCommon'
   pod 'KakaoSDKAuth'
-  pod 'KakaoSDKUser'
+  pod 'KakaoSDKUser' 
+  pod 'KakaoSDKTalk'
+  pod 'KakaoSDKFriend'
+  pod 'KakaoSDKShare'
+  pod 'KakaoSDKTemplate'
 
-  pod 'SnapKit', '~> 5.6.0'
+  pod 'Alamofire'
 
-  pod 'Firebase/RemoteConfig'
-  
+  pod 'SnapKit'
+
 end
+

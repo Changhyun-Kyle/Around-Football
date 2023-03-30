@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="ContentTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContentHeaderCell" rowHeight="115" id="KGk-i7-Jjw" customClass="ContentTableViewCell" customModule="AroundFootball" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="462" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="462" height="115"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1nX-iw-b8F">
+                        <rect key="frame" x="20" y="35.5" width="169" height="44.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="고려대학교 녹지운동장" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrY-RX-cE2">
+                                <rect key="frame" x="0.0" y="0.0" width="151.5" height="20.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="서울특별시 성북구 돈암동 173-7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwD-b9-RLN">
+                                <rect key="frame" x="0.0" y="28.5" width="169" height="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.uturn.right.square.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GFg-GX-BLN">
+                        <rect key="frame" x="372" y="33.5" width="70" height="47.5"/>
+                        <accessibility key="accessibilityConfiguration">
+                            <accessibilityTraits key="traits" button="YES" image="YES"/>
+                            <bool key="isElement" value="NO"/>
+                        </accessibility>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="70" id="BOP-fa-cx7"/>
+                            <constraint firstAttribute="height" constant="50" id="eyt-SO-cab"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="GFg-GX-BLN" firstAttribute="centerY" secondItem="1nX-iw-b8F" secondAttribute="centerY" id="36Y-7N-zlB"/>
+                    <constraint firstItem="1nX-iw-b8F" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="CRf-Dg-caw"/>
+                    <constraint firstAttribute="trailing" secondItem="GFg-GX-BLN" secondAttribute="trailing" constant="20" id="WSL-k5-BZK"/>
+                    <constraint firstItem="1nX-iw-b8F" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Y5w-jw-Mtb"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="addressLabel" destination="kwD-b9-RLN" id="lnE-TR-sbd"/>
+                <outlet property="imageView" destination="GFg-GX-BLN" id="Ifd-ug-r5A"/>
+                <outlet property="nameLabel" destination="yrY-RX-cE2" id="ueq-tU-LTs"/>
+            </connections>
+            <point key="canvasLocation" x="234.78260869565219" y="74.665178571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="arrow.uturn.right.square.fill" catalog="system" width="128" height="114"/>
+    </resources>
+</document>
