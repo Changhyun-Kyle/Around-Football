@@ -24,6 +24,6 @@
 
 ### 화면 구성
 
-| 로그인 화면                | 시작 화면                | 메인 화면 |
-|----------------------|----------------------|------------------------|
-| ![로그인화면](https://user-images.githubusercontent.com/101093592/195090834-acc5247f-1da2-43fc-827d-1ff1045162c9.png) | ![시작화면](https://user-images.githubusercontent.com/101093592/195090831-24c4b9e8-d77e-4e3c-b0ca-fa6d9cee516d.png)| ![메인화면](https://user-images.githubusercontent.com/101093592/195090830-166b7561-74e3-420c-814f-8df2d28b722f.png)   |
+| 로그인 화면                | 시작 화면           | 메인 화면                |       추가정보          |     하단 상세보기       |
+|----------------------|----------------------|------------------------|----------------------|----------------------|
+| ![로그인화면](https://user-images.githubusercontent.com/101093592/195090834-acc5247f-1da2-43fc-827d-1ff1045162c9.png) | ![시작화면](https://user-images.githubusercontent.com/101093592/195090831-24c4b9e8-d77e-4e3c-b0ca-fa6d9cee516d.png)| ![메인화면](https://user-images.githubusercontent.com/101093592/195090830-166b7561-74e3-420c-814f-8df2d28b722f.png)|![IMG_3201](https://user-images.githubusercontent.com/101093592/228728269-1b5ece00-5ad7-4b0c-a0ee-15fa71e123ac.png)|![IMG_3202](https://user-images.githubusercontent.com/101093592/228728319-8a6203aa-d9f8-465b-ad75-d75b0438f982.png)|
