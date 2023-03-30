@@ -9,6 +9,7 @@ import Foundation
 
 struct PlaygroundList: Codable {
     let name: String
+    let address: String
     let lat: Double
     let lng: Double
 }

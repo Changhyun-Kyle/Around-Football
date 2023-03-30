@@ -94,7 +94,7 @@ extension LoginViewController {
                 let url = user?.kakaoAccount?.profile?.profileImageUrl
                 //let email = user?.kakaoAccount?.email
                 
-                guard let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "EnterViewController") as? EnterViewController else { return }
+                guard let nextVC = self.storyboard?.instantiateViewController(withIdentifier: "MoreInfoViewController") as? MoreInfoViewController else { return }
                 
                 // ✅ 사용자 정보 넘기기
                 nextVC.nickname = nickname
@@ -123,8 +123,8 @@ extension LoginViewController {
                     print("loginWithKakaoTalk() success.")
                     
                     // ✅ 회원가입 성공 시 oauthToken 저장
-//                    let kakoOauthToken = oauthToken
-//                    UserDefaults.standard.set(kakoOauthToken, forKey: "KakoOauthToken")
+                    // let kakoOauthToken = oauthToken
+                    // UserDefaults.standard.set(kakoOauthToken, forKey: "KakoOauthToken")
                     
                     // ✅ 사용자정보를 성공적으로 가져오면 화면전환 한다.
                     self.getUserInfo()

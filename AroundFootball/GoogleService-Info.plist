@@ -30,5 +30,7 @@
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
 	<string>1:236320604181:ios:c16f50eb804b180f3dce1c</string>
+	<key>DATABASE_URL</key>
+	<string>https://around-football-default-rtdb.firebaseio.com</string>
 </dict>
 </plist>

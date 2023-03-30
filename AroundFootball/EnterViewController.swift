@@ -28,7 +28,7 @@ class EnterViewController: UIViewController {
         
         kickOffButton.layer.cornerRadius = 5
         
-        //프로필 이미지 UI
+        // ✅ 프로필 이미지 UI
         profileImageView.layer.masksToBounds = true
         profileImageView.layer.borderWidth = 5
         profileImageView.layer.borderColor = UIColor.darkGray.cgColor
