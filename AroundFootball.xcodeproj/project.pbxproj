@@ -114,7 +114,29 @@
 			children = (
 				276EC91E27EAE65D0014D70A /* AppDelegate.swift */,
 				276EC92027EAE65D0014D70A /* SceneDelegate.swift */,
+				27DD487B29D5625F009307B7 /* Models */,
+				27DD487929D5622D009307B7 /* View */,
+				27DD487A29D5623E009307B7 /* Controllers */,
+				275D4E8528040E8000971915 /* Markers.json */,
+				271C67542823B24C00DCF99D /* GoogleService-Info.plist */,
+				276EC92727EAE65E0014D70A /* Assets.xcassets */,
+				276EC92927EAE65E0014D70A /* LaunchScreen.storyboard */,
+				276EC92C27EAE65E0014D70A /* Info.plist */,
+			);
+			path = AroundFootball;
+			sourceTree = "<group>";
+		};
+		27DD487929D5622D009307B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				276EC92427EAE65D0014D70A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		27DD487A29D5623E009307B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
 				276EC93427EAEE200014D70A /* LoginViewController.swift */,
 				2758AF00282A57A6002BC1A8 /* MoreInfoViewController.swift */,
 				27C824C5281A5B2500B90B2D /* MyInfoViewController.swift */,
@@ -127,14 +149,16 @@
 				27C824C12816941B00B90B2D /* ContentTableViewCell.swift */,
 				27C824C22816941B00B90B2D /* ContentTableViewCell.xib */,
 				2766A5D328084C3800CB96F1 /* ChatViewController.swift */,
-				275D4E87280414B800971915 /* PlaygroundList.swift */,
-				275D4E8528040E8000971915 /* Markers.json */,
-				271C67542823B24C00DCF99D /* GoogleService-Info.plist */,
-				276EC92727EAE65E0014D70A /* Assets.xcassets */,
-				276EC92927EAE65E0014D70A /* LaunchScreen.storyboard */,
-				276EC92C27EAE65E0014D70A /* Info.plist */,
 			);
-			path = AroundFootball;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		27DD487B29D5625F009307B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				275D4E87280414B800971915 /* PlaygroundList.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		33449C8C5B120334F38DD4B1 /* Frameworks */ = {
