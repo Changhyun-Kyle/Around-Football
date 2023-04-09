@@ -1,0 +1,193 @@
+{
+  "DESCRIPTION": {
+    "AREANM": "지역명",
+    "SVCNM": "서비스명",
+    "IMGURL": "이미지경로",
+    "Y": "장소Y좌표",
+    "X": "장소X좌표"
+  },
+  "DATA": [
+    {
+      "areanm": "마포구",
+      "svcnm": "마포 난지천 인조잔디축구장",
+      "y": "37.574238294219086",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1617239932085QQ2HH7Q6BFUUKKLU129S2081E",
+      "x": "126.88390026512282"
+    },
+    {
+      "areanm": "동작구",
+      "svcnm": "보라매공원 인조잔디 축구장",
+      "y": "37.49101",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1638338025275O46H21TCGPNC2S1ONMTUNVCK0",
+      "x": "126.91605"
+    },
+    {
+      "areanm": "고양시",
+      "svcnm": "난지물재생센터 인조잔디축구장",
+      "y": "37.589413016454664",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1670891948222EQKSL2HDR1R1QCLNFO4J6KOOR",
+      "x": "126.85151708176347"
+    },
+    {
+      "areanm": "강동구",
+      "svcnm": "광나루한강공원",
+      "y": "37.55123499620423",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1670382289913H9UW74A8JQW217Z477K0YXXCR",
+      "x": "127.12231538484988"
+    },
+    {
+      "areanm": "광진구",
+      "svcnm": "뚝섬한강공원",
+      "y": "37.52803684578285",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1670385111490VJY43VRSY70XM5EYXA7746YNQ",
+      "x": "127.0764002514537"
+    },
+    {
+      "areanm": "서초구",
+      "svcnm": "잠원한강공원",
+      "y": "37.52562225916921",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1670382805754WNM9KPAJ3PJ18BEEGDB69XXNA",
+      "x": "127.01674072385241"
+    },
+    {
+      "areanm": "서초구",
+      "svcnm": "반포한강공원",
+      "y": "37.51465272997659",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=167610108861768FB7WZXHDHGZQQR3FOVCIC78",
+      "x": "127.00493393301383"
+    },
+    {
+      "areanm": "용산구",
+      "svcnm": "이촌한강공원",
+      "y": "37.517917771228134",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=16703835086674CK1VOPAC5AVGT5V214MBH9AK",
+      "x": "126.96963722744289"
+    },
+    {
+      "areanm": "영등포구",
+      "svcnm": "양화한강공원",
+      "y": "37.54396483198871",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1670383272785V85BXSQ2E4XHEQ8IGEWJ8RRRD",
+      "x": "126.8934840115831"
+    },
+    {
+      "areanm": "마포구",
+      "svcnm": "망원한강공원 축구장",
+      "y": "37.551414835463845",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1670384374329IXMPNECOY47FFJBFNG113I0U1",
+      "x": "126.90030305116998"
+    },
+    {
+      "areanm": "구로구",
+      "svcnm": "계남근린공원 인조잔디 축구장",
+      "y": "37.50873991229815",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1678870777904V1BZEEPLUZRIMQ36IE3SRO1SQ",
+      "x": "126.85558854790993"
+    },
+    {
+      "areanm": "성동구",
+      "svcnm": "중랑물재생센터 축구장",
+      "y": "37.56057",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1669177470652UAEPY1UE1CI2TJ8O55A082QJU",
+      "x": "127.0595"
+    },
+    {
+      "areanm": "마포구",
+      "svcnm": "월드컵 보조경기장",
+      "y": "37.571440516252295",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1678843656124RBCP0HXZD582L866CJW9N17XW",
+      "x": "126.89834860949519"
+    },
+    {
+      "areanm": "구로구",
+      "svcnm": "고척스카이돔 야외 축구장",
+      "y": "37.49683",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=167963492815298LF19MSRDGOX2JUMWORB1J4L",
+      "x": "126.8669"
+    },
+    {
+      "areanm": "서초구",
+      "svcnm": "방배배수지체육공원",
+      "y": "37.4730044433",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1678064746552MGLJXOO5BF0GKQSA23X4RYEDE",
+      "x": "126.9924890287"
+    },
+    {
+      "areanm": "서초구",
+      "svcnm": "반포종합운동장 축구장",
+      "y": "37.5005393518",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1679359235018VVNYA0QT3UQVIW9OIALTDWBL7",
+      "x": "126.9942640531"
+    },
+    {
+      "areanm": "서초구",
+      "svcnm": "양재근린공원 축구장",
+      "y": "37.47191609856271",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1678067690990026A95MKMTB9H8TR5F3WDMTUE",
+      "x": "127.04173706084738"
+    },
+    {
+      "areanm": "송파구",
+      "svcnm": "4월 탄천유수지 축구장",
+      "y": "37.49666562874596",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1679533076914ZB5V84AKOGGQTAWTHXDF4EV0Y",
+      "x": "127.10054123654068"
+    },
+    {
+      "areanm": "동작구",
+      "svcnm": "노들나루공원 축구장",
+      "y": "37.5145306282857",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1679291014313MGWYBYV7CAQLCMRUY76LXXK1Q",
+      "x": "126.952430150008"
+    },
+    {
+      "areanm": "강서구",
+      "svcnm": "서남물재생센터 축구장",
+      "y": "37.577287681053",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1617770241565B28IDDMLAYWPBJVD1NDCDN9FD",
+      "x": "126.82589611618"
+    },
+    {
+      "areanm": "강남구",
+      "svcnm": "탄천센터 축구장",
+      "y": "37.4972726699605",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=SVC_IMG_FILE_278083",
+      "x": "127.076439691178"
+    },
+    {
+      "areanm": "용산구",
+      "svcnm": "효창운동장 축구장",
+      "y": "37.544040881252",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=16789481890436THLKUSI517V3SWBUR2EPW5X1",
+      "x": "126.961645170164"
+    },
+    {
+      "areanm": "마포구",
+      "svcnm": "난지천 인조잔디 축구장",
+      "y": "37.574086234398734",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=SVC_IMG_FILE_3714",
+      "x": "126.88400811253959"
+    },
+    {
+      "areanm": "동작구",
+      "svcnm": "노량진 축구장",
+      "y": "37.51526855784476",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1621331325078630FS2N0O39E583A3BRWA5NEO",
+      "x": "126.94176870942795"
+    },
+    {
+      "areanm": "송파구",
+      "svcnm": "송파구여성축구장",
+      "y": "37.52429562083592",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1679548923088QE6MR96HXTBPVJOYOPGDO3D5Z",
+      "x": "127.11826556036217"
+    },
+    {
+      "areanm": "강서구",
+      "svcnm": "강서 개화축구장",
+      "y": "37.5783570443217",
+      "imgurl": "https://yeyak.seoul.go.kr/web/common/file/FileDown.do?file_id=1675857533506LDHHKL65PH4HOIA76O0NUQZQG",
+      "x": "126.78761867815041"
+    }
+  ]
+}
