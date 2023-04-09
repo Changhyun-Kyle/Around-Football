@@ -34,6 +34,8 @@
 		27DD487229D52BFD009307B7 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 27DD487129D52BFD009307B7 /* FirebaseRemoteConfig */; };
 		27DD487429D52BFD009307B7 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 27DD487329D52BFD009307B7 /* FirebaseRemoteConfigSwift */; };
 		27DD487629D52BFD009307B7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 27DD487529D52BFD009307B7 /* FirebaseStorage */; };
+		27DD487D29D588EE009307B7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD487C29D588ED009307B7 /* RegisterViewController.swift */; };
+		27DD488329DD3719009307B7 /* FieldsList.json in Resources */ = {isa = PBXBuildFile; fileRef = 27DD488229DD3719009307B7 /* FieldsList.json */; };
 		27E8F5F129705A17002D3CC4 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 27E8F5F029705A17002D3CC4 /* KakaoSDKAuth */; };
 		27E8F5F329705A17002D3CC4 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 27E8F5F229705A17002D3CC4 /* KakaoSDKCommon */; };
 		27E8F5F729705A17002D3CC4 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 27E8F5F629705A17002D3CC4 /* KakaoSDKUser */; };
@@ -63,6 +65,8 @@
 		27C824C22816941B00B90B2D /* ContentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentTableViewCell.xib; sourceTree = "<group>"; };
 		27C824C5281A5B2500B90B2D /* MyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
 		27DA605928056FEA00F862D3 /* MarkerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerDetailViewController.swift; sourceTree = "<group>"; };
+		27DD487C29D588ED009307B7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		27DD488229DD3719009307B7 /* FieldsList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FieldsList.json; sourceTree = "<group>"; };
 		444C3F4E972F162E5F70CE59 /* Pods-AroundFootball.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AroundFootball.debug.xcconfig"; path = "Target Support Files/Pods-AroundFootball/Pods-AroundFootball.debug.xcconfig"; sourceTree = "<group>"; };
 		942F374B54CA19385467800B /* libPods-AroundFootball.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AroundFootball.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4EE652F64EF72EFE941A98 /* Pods-AroundFootball.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AroundFootball.release.xcconfig"; path = "Target Support Files/Pods-AroundFootball/Pods-AroundFootball.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,6 +134,10 @@
 			isa = PBXGroup;
 			children = (
 				276EC92427EAE65D0014D70A /* Main.storyboard */,
+				2766A5DF280D63C600CB96F1 /* ContentHeaderCell.swift */,
+				2766A5E0280D63C600CB96F1 /* ContentHeaderCell.xib */,
+				27C824C12816941B00B90B2D /* ContentTableViewCell.swift */,
+				27C824C22816941B00B90B2D /* ContentTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -137,18 +145,11 @@
 		27DD487A29D5623E009307B7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				276EC93427EAEE200014D70A /* LoginViewController.swift */,
-				2758AF00282A57A6002BC1A8 /* MoreInfoViewController.swift */,
-				27C824C5281A5B2500B90B2D /* MyInfoViewController.swift */,
+				27DD487E29DD296C009307B7 /* Login */,
+				27DD487F29DD29CE009307B7 /* Map */,
+				27DD488029DD29ED009307B7 /* Chat */,
+				27DD488129DD29FD009307B7 /* MyInfo */,
 				276EC93627EAF0BC0014D70A /* EnterViewController.swift */,
-				276EC93827EAF13B0014D70A /* MainViewController.swift */,
-				27DA605928056FEA00F862D3 /* MarkerDetailViewController.swift */,
-				2766A5E3280D63E100CB96F1 /* ContentViewController.swift */,
-				2766A5DF280D63C600CB96F1 /* ContentHeaderCell.swift */,
-				2766A5E0280D63C600CB96F1 /* ContentHeaderCell.xib */,
-				27C824C12816941B00B90B2D /* ContentTableViewCell.swift */,
-				27C824C22816941B00B90B2D /* ContentTableViewCell.xib */,
-				2766A5D328084C3800CB96F1 /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -157,8 +158,45 @@
 			isa = PBXGroup;
 			children = (
 				275D4E87280414B800971915 /* PlaygroundList.swift */,
+				27DD488229DD3719009307B7 /* FieldsList.json */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		27DD487E29DD296C009307B7 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				276EC93427EAEE200014D70A /* LoginViewController.swift */,
+				2758AF00282A57A6002BC1A8 /* MoreInfoViewController.swift */,
+				27DD487C29D588ED009307B7 /* RegisterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		27DD487F29DD29CE009307B7 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				276EC93827EAF13B0014D70A /* MainViewController.swift */,
+				27DA605928056FEA00F862D3 /* MarkerDetailViewController.swift */,
+				2766A5E3280D63E100CB96F1 /* ContentViewController.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		27DD488029DD29ED009307B7 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				2766A5D328084C3800CB96F1 /* ChatViewController.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		27DD488129DD29FD009307B7 /* MyInfo */ = {
+			isa = PBXGroup;
+			children = (
+				27C824C5281A5B2500B90B2D /* MyInfoViewController.swift */,
+			);
+			path = MyInfo;
 			sourceTree = "<group>";
 		};
 		33449C8C5B120334F38DD4B1 /* Frameworks */ = {
@@ -259,6 +297,7 @@
 				27B237CF2803EBE200DD27C5 /* Assets.xcassets in Resources */,
 				27C824C42816941B00B90B2D /* ContentTableViewCell.xib in Resources */,
 				27B237CE2803EB4400DD27C5 /* Main.storyboard in Resources */,
+				27DD488329DD3719009307B7 /* FieldsList.json in Resources */,
 				2766A5E2280D63C600CB96F1 /* ContentHeaderCell.xib in Resources */,
 				271C67552823B24C00DCF99D /* GoogleService-Info.plist in Resources */,
 			);
@@ -322,6 +361,7 @@
 				275D4E88280414B800971915 /* PlaygroundList.swift in Sources */,
 				276EC91F27EAE65D0014D70A /* AppDelegate.swift in Sources */,
 				27DA605A28056FEB00F862D3 /* MarkerDetailViewController.swift in Sources */,
+				27DD487D29D588EE009307B7 /* RegisterViewController.swift in Sources */,
 				276EC92127EAE65D0014D70A /* SceneDelegate.swift in Sources */,
 				27C824C6281A5B2600B90B2D /* MyInfoViewController.swift in Sources */,
 				276EC93927EAF13B0014D70A /* MainViewController.swift in Sources */,
