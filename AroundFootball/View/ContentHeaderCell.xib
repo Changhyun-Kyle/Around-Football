@@ -1,31 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <tableViewCell contentMode="scaleToFill" restorationIdentifier="ContentTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContentHeaderCell" rowHeight="115" id="KGk-i7-Jjw" customClass="ContentTableViewCell" customModule="AroundFootball" customModuleProvider="target">
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="ContentTableViewCell" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContentHeaderCell" rowHeight="115" id="OPM-MV-2F3" customClass="ContentHeaderCell" customModule="AroundFootball" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="462" height="115"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OPM-MV-2F3" id="wyH-oc-4z5">
                 <rect key="frame" x="0.0" y="0.0" width="462" height="115"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="1nX-iw-b8F">
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="v7R-VR-rle">
                         <rect key="frame" x="20" y="35.5" width="169" height="44.5"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="고려대학교 녹지운동장" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrY-RX-cE2">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="고려대학교 녹지운동장" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrR-tu-Co7">
                                 <rect key="frame" x="0.0" y="0.0" width="151.5" height="20.5"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="서울특별시 성북구 돈암동 173-7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kwD-b9-RLN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="서울특별시 성북구 돈암동 173-7" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O6K-8l-w96">
                                 <rect key="frame" x="0.0" y="28.5" width="169" height="16"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -33,36 +35,46 @@
                             </label>
                         </subviews>
                     </stackView>
-                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.uturn.right.square.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GFg-GX-BLN">
-                        <rect key="frame" x="372" y="33.5" width="70" height="47.5"/>
-                        <accessibility key="accessibilityConfiguration">
-                            <accessibilityTraits key="traits" button="YES" image="YES"/>
-                            <bool key="isElement" value="NO"/>
-                        </accessibility>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ORf-s0-b7a">
+                        <rect key="frame" x="342" y="32.5" width="100" height="50"/>
+                        <color key="backgroundColor" systemColor="labelColor"/>
                         <constraints>
-                            <constraint firstAttribute="width" constant="70" id="BOP-fa-cx7"/>
-                            <constraint firstAttribute="height" constant="50" id="eyt-SO-cab"/>
+                            <constraint firstAttribute="height" constant="50" id="Mae-Vh-NJ5"/>
+                            <constraint firstAttribute="width" constant="100" id="dfu-eB-say"/>
                         </constraints>
-                    </imageView>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                        <state key="normal" title="용병 구하기">
+                            <color key="titleColor" systemColor="systemBackgroundColor"/>
+                        </state>
+                        <connections>
+                            <action selector="recruitPressed:" destination="OPM-MV-2F3" eventType="touchUpInside" id="xTY-Zf-RRg"/>
+                        </connections>
+                    </button>
                 </subviews>
                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                 <constraints>
-                    <constraint firstItem="GFg-GX-BLN" firstAttribute="centerY" secondItem="1nX-iw-b8F" secondAttribute="centerY" id="36Y-7N-zlB"/>
-                    <constraint firstItem="1nX-iw-b8F" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="CRf-Dg-caw"/>
-                    <constraint firstAttribute="trailing" secondItem="GFg-GX-BLN" secondAttribute="trailing" constant="20" id="WSL-k5-BZK"/>
-                    <constraint firstItem="1nX-iw-b8F" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="Y5w-jw-Mtb"/>
+                    <constraint firstAttribute="trailing" secondItem="ORf-s0-b7a" secondAttribute="trailing" constant="20" id="2sV-tL-QPz"/>
+                    <constraint firstItem="v7R-VR-rle" firstAttribute="centerY" secondItem="wyH-oc-4z5" secondAttribute="centerY" id="JUV-re-rDZ"/>
+                    <constraint firstItem="v7R-VR-rle" firstAttribute="leading" secondItem="wyH-oc-4z5" secondAttribute="leading" constant="20" id="Zcc-6l-kiK"/>
+                    <constraint firstItem="ORf-s0-b7a" firstAttribute="centerY" secondItem="v7R-VR-rle" secondAttribute="centerY" id="pQ7-C2-WZr"/>
                 </constraints>
             </tableViewCellContentView>
-            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <viewLayoutGuide key="safeArea" id="s8M-fJ-oXu"/>
             <connections>
-                <outlet property="addressLabel" destination="kwD-b9-RLN" id="lnE-TR-sbd"/>
-                <outlet property="imageView" destination="GFg-GX-BLN" id="Ifd-ug-r5A"/>
-                <outlet property="nameLabel" destination="yrY-RX-cE2" id="ueq-tU-LTs"/>
+                <outlet property="addressLabel" destination="O6K-8l-w96" id="gs7-7J-swo"/>
+                <outlet property="nameLabel" destination="mrR-tu-Co7" id="hs4-uN-dl9"/>
+                <outlet property="recruitButton" destination="ORf-s0-b7a" id="nqy-Qn-EPb"/>
             </connections>
             <point key="canvasLocation" x="234.78260869565219" y="74.665178571428569"/>
         </tableViewCell>
     </objects>
     <resources>
-        <image name="arrow.uturn.right.square.fill" catalog="system" width="128" height="114"/>
+        <systemColor name="labelColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

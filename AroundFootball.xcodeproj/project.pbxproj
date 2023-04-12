@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271117F029E683DE00B10D13 /* RecruitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 271117EF29E683DE00B10D13 /* RecruitViewController.swift */; };
 		271C67552823B24C00DCF99D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 271C67542823B24C00DCF99D /* GoogleService-Info.plist */; };
+		27470E5029E66FA40017DD81 /* PlaygroundList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27470E4F29E66FA40017DD81 /* PlaygroundList.swift */; };
 		2758AF01282A57A6002BC1A8 /* MoreInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2758AF00282A57A6002BC1A8 /* MoreInfoViewController.swift */; };
 		275D4E8628040E8000971915 /* Markers.json in Resources */ = {isa = PBXBuildFile; fileRef = 275D4E8528040E8000971915 /* Markers.json */; };
-		275D4E88280414B800971915 /* PlaygroundList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275D4E87280414B800971915 /* PlaygroundList.swift */; };
 		2766A5D428084C3800CB96F1 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766A5D328084C3800CB96F1 /* ChatViewController.swift */; };
 		2766A5E1280D63C600CB96F1 /* ContentHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2766A5DF280D63C600CB96F1 /* ContentHeaderCell.swift */; };
 		2766A5E2280D63C600CB96F1 /* ContentHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2766A5E0280D63C600CB96F1 /* ContentHeaderCell.xib */; };
@@ -25,7 +26,6 @@
 		27C824C32816941B00B90B2D /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C824C12816941B00B90B2D /* ContentTableViewCell.swift */; };
 		27C824C42816941B00B90B2D /* ContentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27C824C22816941B00B90B2D /* ContentTableViewCell.xib */; };
 		27C824C6281A5B2600B90B2D /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C824C5281A5B2500B90B2D /* MyInfoViewController.swift */; };
-		27DA605A28056FEB00F862D3 /* MarkerDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DA605928056FEA00F862D3 /* MarkerDetailViewController.swift */; };
 		27DD486829D52BFD009307B7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 27DD486729D52BFD009307B7 /* FirebaseAuth */; };
 		27DD486A29D52BFD009307B7 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 27DD486929D52BFD009307B7 /* FirebaseDatabase */; };
 		27DD486C29D52BFD009307B7 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 27DD486B29D52BFD009307B7 /* FirebaseDatabaseSwift */; };
@@ -35,7 +35,6 @@
 		27DD487429D52BFD009307B7 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 27DD487329D52BFD009307B7 /* FirebaseRemoteConfigSwift */; };
 		27DD487629D52BFD009307B7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 27DD487529D52BFD009307B7 /* FirebaseStorage */; };
 		27DD487D29D588EE009307B7 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27DD487C29D588ED009307B7 /* RegisterViewController.swift */; };
-		27DD488329DD3719009307B7 /* FieldsList.json in Resources */ = {isa = PBXBuildFile; fileRef = 27DD488229DD3719009307B7 /* FieldsList.json */; };
 		27E8F5F129705A17002D3CC4 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 27E8F5F029705A17002D3CC4 /* KakaoSDKAuth */; };
 		27E8F5F329705A17002D3CC4 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = 27E8F5F229705A17002D3CC4 /* KakaoSDKCommon */; };
 		27E8F5F729705A17002D3CC4 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = 27E8F5F629705A17002D3CC4 /* KakaoSDKUser */; };
@@ -43,10 +42,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		271117EF29E683DE00B10D13 /* RecruitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecruitViewController.swift; sourceTree = "<group>"; };
 		271C67542823B24C00DCF99D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		27470E4F29E66FA40017DD81 /* PlaygroundList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaygroundList.swift; sourceTree = "<group>"; };
 		2758AF00282A57A6002BC1A8 /* MoreInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreInfoViewController.swift; sourceTree = "<group>"; };
 		275D4E8528040E8000971915 /* Markers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Markers.json; sourceTree = "<group>"; };
-		275D4E87280414B800971915 /* PlaygroundList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundList.swift; sourceTree = "<group>"; };
 		2766A5D328084C3800CB96F1 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		2766A5DF280D63C600CB96F1 /* ContentHeaderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentHeaderCell.swift; sourceTree = "<group>"; };
 		2766A5E0280D63C600CB96F1 /* ContentHeaderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentHeaderCell.xib; sourceTree = "<group>"; };
@@ -64,9 +64,7 @@
 		27C824C12816941B00B90B2D /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
 		27C824C22816941B00B90B2D /* ContentTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContentTableViewCell.xib; sourceTree = "<group>"; };
 		27C824C5281A5B2500B90B2D /* MyInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
-		27DA605928056FEA00F862D3 /* MarkerDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkerDetailViewController.swift; sourceTree = "<group>"; };
 		27DD487C29D588ED009307B7 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
-		27DD488229DD3719009307B7 /* FieldsList.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FieldsList.json; sourceTree = "<group>"; };
 		444C3F4E972F162E5F70CE59 /* Pods-AroundFootball.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AroundFootball.debug.xcconfig"; path = "Target Support Files/Pods-AroundFootball/Pods-AroundFootball.debug.xcconfig"; sourceTree = "<group>"; };
 		942F374B54CA19385467800B /* libPods-AroundFootball.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AroundFootball.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F4EE652F64EF72EFE941A98 /* Pods-AroundFootball.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AroundFootball.release.xcconfig"; path = "Target Support Files/Pods-AroundFootball/Pods-AroundFootball.release.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +93,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		271117EC29E6835500B10D13 /* Recruit */ = {
+			isa = PBXGroup;
+			children = (
+				271117EF29E683DE00B10D13 /* RecruitViewController.swift */,
+			);
+			path = Recruit;
+			sourceTree = "<group>";
+		};
 		276EC91227EAE65D0014D70A = {
 			isa = PBXGroup;
 			children = (
@@ -145,6 +151,7 @@
 		27DD487A29D5623E009307B7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				271117EC29E6835500B10D13 /* Recruit */,
 				27DD487E29DD296C009307B7 /* Login */,
 				27DD487F29DD29CE009307B7 /* Map */,
 				27DD488029DD29ED009307B7 /* Chat */,
@@ -157,8 +164,7 @@
 		27DD487B29D5625F009307B7 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				275D4E87280414B800971915 /* PlaygroundList.swift */,
-				27DD488229DD3719009307B7 /* FieldsList.json */,
+				27470E4F29E66FA40017DD81 /* PlaygroundList.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -177,7 +183,6 @@
 			isa = PBXGroup;
 			children = (
 				276EC93827EAF13B0014D70A /* MainViewController.swift */,
-				27DA605928056FEA00F862D3 /* MarkerDetailViewController.swift */,
 				2766A5E3280D63E100CB96F1 /* ContentViewController.swift */,
 			);
 			path = Map;
@@ -297,7 +302,6 @@
 				27B237CF2803EBE200DD27C5 /* Assets.xcassets in Resources */,
 				27C824C42816941B00B90B2D /* ContentTableViewCell.xib in Resources */,
 				27B237CE2803EB4400DD27C5 /* Main.storyboard in Resources */,
-				27DD488329DD3719009307B7 /* FieldsList.json in Resources */,
 				2766A5E2280D63C600CB96F1 /* ContentHeaderCell.xib in Resources */,
 				271C67552823B24C00DCF99D /* GoogleService-Info.plist in Resources */,
 			);
@@ -354,16 +358,16 @@
 			files = (
 				2766A5E4280D63E100CB96F1 /* ContentViewController.swift in Sources */,
 				276EC93527EAEE200014D70A /* LoginViewController.swift in Sources */,
+				27470E5029E66FA40017DD81 /* PlaygroundList.swift in Sources */,
 				276EC93727EAF0BC0014D70A /* EnterViewController.swift in Sources */,
 				27C824C32816941B00B90B2D /* ContentTableViewCell.swift in Sources */,
 				2766A5E1280D63C600CB96F1 /* ContentHeaderCell.swift in Sources */,
 				2766A5D428084C3800CB96F1 /* ChatViewController.swift in Sources */,
-				275D4E88280414B800971915 /* PlaygroundList.swift in Sources */,
 				276EC91F27EAE65D0014D70A /* AppDelegate.swift in Sources */,
-				27DA605A28056FEB00F862D3 /* MarkerDetailViewController.swift in Sources */,
 				27DD487D29D588EE009307B7 /* RegisterViewController.swift in Sources */,
 				276EC92127EAE65D0014D70A /* SceneDelegate.swift in Sources */,
 				27C824C6281A5B2600B90B2D /* MyInfoViewController.swift in Sources */,
+				271117F029E683DE00B10D13 /* RecruitViewController.swift in Sources */,
 				276EC93927EAF13B0014D70A /* MainViewController.swift in Sources */,
 				2758AF01282A57A6002BC1A8 /* MoreInfoViewController.swift in Sources */,
 			);
