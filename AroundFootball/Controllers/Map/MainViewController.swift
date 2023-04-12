@@ -8,13 +8,13 @@
 import UIKit
 import NMapsMap
 import CoreLocation
-import FirebaseDatabase
+import Firebase
 
 class MainViewController: UIViewController {
     var ref: DatabaseReference!             //Firebase Realtime Database Reference
     var playgroundList: [PlaygroundList] = []
     var locationManager = CLLocationManager()
-    let markerDetailViewController = MarkerDetailViewController(contentViewController: UITableViewController())
+//    let markerDetailViewController = MarkerDetailViewController(contentViewController: UITableViewController())
     
     @IBOutlet weak var naverMapView: NMFNaverMapView!
     
@@ -27,9 +27,9 @@ class MainViewController: UIViewController {
     }
     
     @objc func buttonTapped() {
-        let bottomSheetVC = MarkerDetailViewController(contentViewController: UITableViewController())
-        bottomSheetVC.modalPresentationStyle = .overFullScreen
-        self.present(bottomSheetVC, animated: false, completion: nil)
+//        let bottomSheetVC = MarkerDetailViewController(contentViewController: UITableViewController())
+//        bottomSheetVC.modalPresentationStyle = .overFullScreen
+//        self.present(bottomSheetVC, animated: false, completion: nil)
     }
     
     override func viewDidLoad() {
@@ -91,9 +91,10 @@ class MainViewController: UIViewController {
                 if marker.iconImage.reuseIdentifier == "\(sdkBundle.bundleIdentifier ?? "").mSNormal" {
                     marker.iconImage = NMFOverlayImage(name: "mSNormalNight", in: Bundle.naverMapFramework())
                     print("Marker Tapped")
-                    let markerDetailVC = MarkerDetailViewController(contentViewController: ContentViewController())
-                    markerDetailVC.modalPresentationStyle = .overFullScreen
-                    self.present(markerDetailVC, animated: false, completion: nil)
+                    self.presentModal()
+//                    let markerDetailVC = MarkerDetailViewController(contentViewController: ContentViewController())
+//                    markerDetailVC.modalPresentationStyle = .overFullScreen
+//                    self.present(markerDetailVC, animated: false, completion: nil)
                 } else {
                     marker.iconImage = NMFOverlayImage(name: "mSNormal", in: Bundle.naverMapFramework())
                     print("Marker Removed")
@@ -158,6 +159,23 @@ class MainViewController: UIViewController {
         marker12.position = NMGLatLng(lat: 37.5743984, lng: 127.0901063)
         marker12.captionText = "용마폭포공원 축구장"
         marker12.mapView = mapView
+    }
+    
+    func presentModal() {
+        let detailViewController = ContentViewController()
+        let nav = UINavigationController(rootViewController: detailViewController)
+        
+        nav.modalPresentationStyle = .pageSheet
+        
+        if #available(iOS 15.0, *) {
+            if let sheet = nav.sheetPresentationController {
+                sheet.detents = [.medium(), .large()]
+            }
+        } else {
+            // Fallback on earlier versions
+        }
+        
+        present(nav, animated: true)
     }
     
     // ✅ 화면 터치 시 입력창 닫기

@@ -7,29 +7,36 @@
 
 import UIKit
 
-var nameLabel: [String] = []
-var addressLabel: [String] = []
-
-class ContentViewController: UITableViewController {
+class ContentViewController: UIViewController, UITableViewDelegate {
+    
+    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        // tableView.delegate = self
+//         tableView.dataSource = self
+//        tableView.register(UINib(nibName: "ContentHeaderCell", bundle: nil), forHeaderFooterViewReuseIdentifier: "ContentHeaderCell")
+//        tableView.register(UINib(nibName: "ContentTableViewCell", bundle: nil), forCellReuseIdentifier: "ContentTableViewCell")
         
-        view.backgroundColor = .white
+        view.backgroundColor = .systemBackground
         
-        let contentNibName = UINib(nibName: "ContentTableViewCell", bundle: nil)
-        tableView.register(contentNibName, forCellReuseIdentifier: "ContentTableViewCell")
-        
-        let headerNibName = UINib(nibName: "ContentHeaderCell", bundle: nil)
-        tableView.register(headerNibName, forHeaderFooterViewReuseIdentifier: "ContentHeaderCell")
+//        let contentNibName = UINib(nibName: "ContentTableViewCell", bundle: nil)
+//        tableView.register(contentNibName, forCellReuseIdentifier: "ContentTableViewCell")
+//
+//        let headerNibName = UINib(nibName: "ContentHeaderCell", bundle: nil)
+//        tableView.register(headerNibName, forHeaderFooterViewReuseIdentifier: "ContentHeaderCell")
+//
     }
 
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+
+}
+
+extension ContentViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }
     
-
-    override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "ContentTableViewCell", for: indexPath) as? ContentTableViewCell else { return UITableViewCell() }
         cell.timeLabel.text = "13:00 - 15:00"
         cell.typeLabel.text = "용병 3명"
@@ -41,13 +48,11 @@ class ContentViewController: UITableViewController {
         return cell
     }
     
-    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
 
         let headerView = UIView.init(frame: CGRect.init(x: 0, y: 0, width: tableView.frame.width, height: 50))
-        
         let nameLabel = UILabel()
         let addressLabel = UILabel()
-        
         
         nameLabel.frame = CGRect.init(x: 30, y: 5, width: headerView.frame.width-10, height: headerView.frame.height-10)
         nameLabel.text = "고려대학교 녹지운동장"
@@ -75,7 +80,7 @@ class ContentViewController: UITableViewController {
         ])
         return headerView
     }
-    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 80
     }
 }

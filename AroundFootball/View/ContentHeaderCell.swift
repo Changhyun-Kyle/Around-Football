@@ -11,6 +11,7 @@ class ContentHeaderCell: UITableViewCell {
 
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var recruitButton: UIButton!
     
     override func awakeFromNib() {
         super.awakeFromNib()
@@ -23,4 +24,7 @@ class ContentHeaderCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    @IBAction func recruitPressed(_ sender: UIButton) {
+        
+    }
 }
